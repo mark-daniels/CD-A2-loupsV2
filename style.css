@@ -1,0 +1,102 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #eeeeee;
+}
+
+/* WRAPPER ------------------------ */
+#wrapper {
+	width: 970px;
+	margin: 0 auto;
+	font-family: "Times New Roman, Georgia, serif";
+	font-size: 0px;
+}
+	#wrapper>div {
+		border-radius: 25px;
+		margin-top: 20px;
+	}
+
+/* HEADER ------------------------- */
+#header, #navigation, #footer {
+	background-color: #dddddd;
+}
+	#header, #footer {
+		height: 100%;
+		padding: 20px;
+	}
+
+/* NAVIGATION --------------------- */
+#navigation {
+	width: 220px;
+	height: 100%;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+	#navigation ul li {
+		padding-top: 2px;
+	}
+	#navigation li a {
+		text-decoration: none;
+	}
+	#outer_menu>li:first-child {
+		list-style: none;
+		padding: 0px;
+		margin-left: -15px;
+	}
+	#inner_menu {
+		margin: 0px;
+		padding-left: 16px;
+	}
+
+/* CONTENT ------------------------ */
+#content {
+	background-color: #aaaaaa;
+	height: 100%;
+	width: 690px;
+	margin-left: 20px;
+	padding: 15px 20px;
+	overflow: hidden;
+}
+	#content ul li {
+		padding-top: 10px;
+	}
+
+/* FOOTER ------------------------ */
+#footer p {
+	display: block;
+}
+
+/* ELEMENTS ---------------------------- */
+ul {
+	font-size: 14px;
+	margin-top: 15px;
+	padding-left: 30px;
+}
+	ul li a {
+		font-weight: bold;
+	}
+
+p {
+	display: inline;
+	font-size: 17px;
+}
+
+/* CLASSES ------------------------ */
+.inlineBlock {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.heading1 {
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.heading2 {
+	font-size: 28px;
+	font-weight: bold;
+	padding: 15px 0px;
+}
